@@ -5,3 +5,4 @@ dash-bootstrap-components>=1.0
 gunicorn
 joblib>=1.1.0
 scikit-learn>=1.0
+numpy>=1.21
