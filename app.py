@@ -90,9 +90,9 @@ df_avg_2026 = fg_stats.melt(id_vars=['Name'], value_vars=[f'{s}_2026' for s in A
 df_disc_2026 = fg_stats.melt(id_vars=['Name'], value_vars=[f'{s}_2026' for s in DISCIPLINE_STATS])
 df_total_2026 = fg_stats.melt(id_vars=['Name'], value_vars=[f'{s}_2026' for s in TOTAL_STATS])
 
-fig_avg_2026 = px.bar(df_avg_2026, x='variable', y='value', color='Name', barmode='group', title="2026 Predicted AVG/Rate Stats")
-fig_disc_2026 = px.bar(df_disc_2026, x='variable', y='value', color='Name', barmode='group', title="2026 Predicted Plate Discipline Stats")
-fig_total_2026 = px.bar(df_total_2026, x='variable', y='value', color='Name', barmode='group', title="2026 Predicted Counting Stats")
+fig_avg_2026 = px.bar(df_avg_2026, x='variable', y='value', color='Name', barmode='group', title="2026 Projected AVG/Rate Stats")
+fig_disc_2026 = px.bar(df_disc_2026, x='variable', y='value', color='Name', barmode='group', title="2026 Projected Plate Discipline Stats")
+fig_total_2026 = px.bar(df_total_2026, x='variable', y='value', color='Name', barmode='group', title="2026 Projected Counting Stats")
 
 # =============================
 # DASH APP
