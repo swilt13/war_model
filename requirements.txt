@@ -3,3 +3,5 @@ plotly>=5.0
 dash>=2.0
 dash-bootstrap-components>=1.0
 gunicorn
+joblib>=1.1.0
+scikit-learn>=1.0
